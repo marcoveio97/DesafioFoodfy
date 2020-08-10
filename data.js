@@ -1,9 +1,10 @@
 module.exports = [
     {
-        image: 'assets/burger.png',
+        image: '/assets/burger.png',
         title: 'Triplo bacon burger',
         author: 'Jorge Relato',
-        ingredients: [
+        title_ingredients: 'Ingredientes',
+        ingredients: [ 
             '3 kg de carne moída (escolha uma carne magra e macia)',
             '300 g de bacon moído',
             '1 ovo',
@@ -11,6 +12,7 @@ module.exports = [
             '3 colheres (sopa) de tempero caseiro: feito com alho, sal, cebola, pimenta e cheiro verde processados no liquidificador',
             '30 ml de água gelada'
         ],
+        title_preparation: 'Modo de Preparo',
         preparation: [
             'Misture todos os ingredientes muito bem e amasse para que fique tudo muito bem misturado.',
             'Faça porções de 90 g a 100 g.',
@@ -20,12 +22,14 @@ module.exports = [
             'Faça no máximo 4 camadas por forma e leve para congelar.',
             'Retire do congelador, frite ou asse e está pronto.'
         ],
+        title_information: 'Informações adicionais',
         information: "Preaqueça a chapa, frigideira ou grelha por 10 minutos antes de levar os hambúrgueres. Adicione um pouquinho de óleo ou manteiga e não amasse os hambúrgueres! \n\n Você sabia que a receita que precede o hambúrguer surgiu no século XIII, na Europa? A ideia de moer a carne chegou em Hamburgo no século XVII, onde um açogueiro resolveu também temperá-la. Assim, a receita foi disseminada nos Estados Unidos por alemães da região. Lá surgiu a ideia de colocar o hambúrguer no meio do pão e adicionar outros ingredientes, como queijom tomates e alface."
     },
     {
-        image: 'assets/pizza.png',
+        image: '/assets/pizza.png',
         title: 'Pizza 4 estações',
         author: 'Fabiana Melo',
+        title_ingredients: 'Ingredientes',
         ingredients: [
             '1 xícara (chá) de leite',
             '1 ovo',
@@ -40,6 +44,7 @@ module.exports = [
             'azeitona picada',
             'orégano a gosto'
         ],
+        title_preparation: 'Modo de Preparo',
         preparation: [
             'No liquidificador bata o leite, o ovo, o sal, o açúcar, a margarina, a farinha de trigo e o fermento em pó até que tudo esteja encorporado.',
             'Despeje a massa em uma assadeira para pizza untada com margarina e leve ao forno preaquecido por 20 minutos.',
@@ -47,29 +52,34 @@ module.exports = [
             'Cubra a massa com mussarela ralada, tomate e orégano a gosto.',
             'Leve novamente ao forno até derreter a mussarela.'
         ],
+        title_information: 'Informações adicionais',
         information: 'Pizza de liquidificador é uma receita deliciosa e supersimples de preparar. Feita toda no liquidificador, ela é bem prática para o dia a dia. Aqui no TudoGostoso você também encontra diversas delícias práticas feitas no liquidificador: massa de panqueca, torta de frango de liquidificador, pão de queijo de liquidificador, bolo de banana, bolo de chocolate e muito mais!'
     },
     {
-        image: 'assets/asinhas.png',
+        image: '/assets/asinhas.png',
         title: 'Asinhas de frango ao barbecue',
         author: 'Vania Steroski',
+        title_ingredients: 'Ingredientes',
         ingredients: [
             '12 encontros de asinha de galinha, temperados a gosto',
             '2 colheres de sopa de farinha de trigo',
             '1/2 xícara (chá) de óleo',
             '1 xícara de molho barbecue'
         ],
+        title_preparation: 'Modo de Preparo',
         preparation: [
             'Em uma tigela coloque o encontro de asinha de galinha e polvilhe a farinha de trigo e misture com as mãos.',
             'Em uma frigideira ou assador coloque o óleo quando estiver quente frite até ficarem douradas.',
             'Para servir fica bonito com salada, ou abuse da criatividade.'
         ],
+        title_information: 'Informações adicionais',
         information: ''
     },
     {
-        image: 'assets/lasanha.png',
+        image: '/assets/lasanha.png',
         title: "Lasanha mac n' cheese",
         author: 'Juliano Vieira',
+        title_ingredients: 'Ingredientes',
         ingredients: [
             'massa pronta de lasanha',
             '400 g de presunto',
@@ -77,6 +87,7 @@ module.exports = [
             '2 copos de requeijão',
             '150 g de mussarela para gratinar'
         ],
+        title_preparation: 'Modo de preparo',
         preparation: [
             'Em uma panela, coloque a manteiga para derreter.',
             'Acrescente a farinha de trigo e misture bem com auxílio de um fouet.',
@@ -84,12 +95,14 @@ module.exports = [
             'Tempere com sal, pimenta e noz-moscada a gosto.',
             'Desligue o fogo e acrescente o creme de leite; misture bem e reserve.'
         ],
+        title_information: 'Informações adicionais',
         information: 'Recheie a lasanha com o que preferir.'
     },
     {
-        image: 'assets/espaguete.png',
+        image: '/assets/espaguete.png',
         title: 'Espaguete ao alho',
         author: 'Júlia Kinoto',
+        title_ingredients: 'Ingredientes',
         ingredients: [
             '1 pacote de macarrão 500 g (tipo do macarrão a gosto)',
             '1 saquinho de alho granulado',
@@ -101,6 +114,7 @@ module.exports = [
             'gengibre em pó a gosto',
             '1 folha de louro'
         ],
+        title_preparation: 'Modo de Preparo',
         preparation: [
             'Quando faltar mais ou menos 5 minutos para ficar no ponto de escorrer o macarrão, comece o preparo da receita.',
             'Na frigideira quente coloque a manteiga, o azeite, a folha de louro, e o alho granulado.',
@@ -108,12 +122,14 @@ module.exports = [
             'O dente de alho, serve para você untar os pratos onde serão servidos o macarrão.',
             'Coloque as porções nos pratos já com o cheiro do alho, e enfeite com algumas ervas.'
         ],
+        title_information: 'Informações adicionais',
         information: 'Não lave o macarrão nem passe óleo ou gordura nele depois de escorrê-lo. Coloque direto na frigideira.'
     },
     {
-        image: 'assets/doce.png',
+        image: '/assets/doce.png',
         title: 'Docinhos pão-do-céu',
         author: 'Ricardo Golvea',
+        title_ingredients: 'Ingredientes',
         ingredients: [
             '1 kg de batata - doce',
             '100 g de manteiga',
@@ -124,12 +140,14 @@ module.exports = [
             'manteiga para untar',
             'açúcar de confeiteiro'
         ],
+        title_preparation: 'Modo de Preparo',
         preparation: [
             'Cozinhe a batata-doce numa panela de pressão, com meio litro de água, por cerca de 20 minutos. Descasque e passe pelo espremedor, ainda quente.',
             'Junte a manteiga,os ovos, o coco ralado,o açúcar, o Leite Moça e o fermento em pó, mexendo bem após cada adição.',
             'Despeje em assadeira retangular média, untada e leve ao forno médio (180°C), por aproximadamente 45 minutos. Depois de frio, polvilhe, com o',
             'açúcar de confeiteiro e corte em quadrados.'
         ],
+        title_information: 'Informações adicionais',
         information: ''
     }
 ];

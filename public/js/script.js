@@ -7,11 +7,11 @@ for (let card of cards) {
     });
 }
 
-const links = document.querySelector('.links');
-const link = links.querySelectorAll('a');
+//const links = document.querySelector('.links');
+//const link = links.querySelectorAll('a');
 
-for (let a of link) {
-    a.addEventListener('click', function () {
-        a.classList.add('ativo');
-    });
-}
+//for (let a of link) {
+//    a.addEventListener('click', function () {
+//        a.classList.add('ativo');
+//    });
+//}
