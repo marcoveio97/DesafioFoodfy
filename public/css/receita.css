@@ -1,0 +1,103 @@
+.receita_image img {
+    width: 940px;
+    height: 280px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.receita_descricao {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.receita_descricao h1 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-black-111);
+    font-size: 38px;
+    line-height: 42px;
+    margin-bottom: 4px;
+}
+
+.receita_descricao p {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-cinza-777);
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.ingredientes p,
+.preparo p,
+.informacao p {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-black-111);
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.ingredientes .esconderIngredientes {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-cinza-999);
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.preparo .esconderPreparo {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-cinza-999);
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.informacao .esconderInformacao {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-cinza-999);
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.conteudoIngrediente,
+.conteudoPreparo,
+.conteudoInformacao {
+    margin-bottom: 39px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.conteudoIngrediente ul li,
+.conteudoPreparo ul li {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-cinza-444);
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.conteudoInformacao p {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-cinza-444);
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 100;
+}
+
+/* === CONTEUDO ATIVO === */
+.conteudoIngrediente.desativo,
+.conteudoPreparo.desativo,
+.conteudoInformacao.desativo {
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+

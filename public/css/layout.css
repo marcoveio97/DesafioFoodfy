@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --color-black-111: #111111;
+    --color-rosa-FDB: #FBDFDB;
+    --color-cinza-777: #777777;
+    --color-branco-EEE: #EEEEEE;
+    --color-cinza-999: #999999;
+    --color-cinza-444: #444444;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    max-width: 2000px;
+    margin: 0px auto;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0px auto;
+    margin-bottom: 40px;
+}
+
+header {
+    display: block;
+    margin-top: 30px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a img {
+    margin-right: 122.4px;
+    margin-bottom: 30px;
+}
+
+.links {
+    display: inline;
+}
+
+.links a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-black-111);
+    text-decoration: none;
+    margin-right: 30px;
+    position: relative;
+    bottom: 36px;
+}
+
+.footer {
+    text-align: center;
+    padding: 23px 0px;
+    margin: 40px auto;
+    margin-bottom: 0px;
+    background: var(--color-branco-EEE);
+    max-width: 2000px;
+}
+
+.footer p {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-cinza-999);
+    font-size: 14px;
+    font-weight: 16px;
+}
+
+.links a .ativo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}

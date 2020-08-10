@@ -1,0 +1,40 @@
+.ativo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card_image img {
+    height: 140px;
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.card_conteudo h1 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-black-111);;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 5px;
+}
+
+.card_conteudo p {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-cinza-777);
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+
+

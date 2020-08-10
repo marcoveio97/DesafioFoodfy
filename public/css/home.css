@@ -1,0 +1,89 @@
+.wrapper {
+    background: var(--color-rosa-FDB);
+    height: 366px;
+    width: 940px;
+    border-radius: 30px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.wrapper h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 117px;
+    right: 575px;
+    bottom: 211px;
+    left: 60px;
+}
+
+.wrapper p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    height: 84px;
+    width: 316px;
+    position: absolute;
+    top: 165px;
+    right: 564px;
+    bottom: 117px;
+    left: 60px;
+}
+
+.wrapper img {
+    position: absolute;
+    top: 66px;
+    right: 100px;
+    bottom: 0px;
+    left: 624px;
+}
+
+.accessed {
+    margin-bottom: 20px;
+}
+
+.accessed p {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-black-111);;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card_image img {
+    height: 140px;
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.card_conteudo h1 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-black-111);;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 5px;
+}
+
+.card_conteudo p {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-cinza-777);
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+

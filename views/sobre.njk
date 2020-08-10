@@ -1,0 +1,35 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+
+    <title>{{item.title_sobre}}</title>
+    <link rel="stylesheet" href="/css/sobre.css">
+
+{% endblock %}
+
+{% block body %}
+
+    <div class="sobre">
+        <h1>{{item.h1_sobre}}</h1>
+        <div class="text_sobre">
+            <p>{{item.p_sobre}}</p>
+            <p>{{item.p2_sobre}}<p>
+        </div>
+    </div>
+
+    <div class="comeco">
+        <h1>{{item.h1_comeco}}</h1>
+        <div class="text_comeco">
+            <p>{{item.p_comeco}}</p>
+            <p>{{item.p2_comeco}}</p>
+        </div>
+    </div>
+
+    <div class="nossasReceitas">
+        <h1>{{item.h1_nossasReceitas}}</h1>
+        <div class="text_nossasReceitas">
+            <p>{{item.p_nossasReceitas}}</p>
+        </div>
+    </div>
+   
+{% endblock %}
